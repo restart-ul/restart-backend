@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_infos",
+  "info": {
+    "displayName": "Info",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

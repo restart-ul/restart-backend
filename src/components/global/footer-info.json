@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_global_footer_infos",
+  "info": {
+    "displayName": "Footer info",
+    "icon": "infinity",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "altText": {
+      "type": "string"
+    },
+    "siteDetail": {
+      "type": "text"
+    },
+    "header": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "restart-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "start": "strapi develop",
+    "strapi:start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.1.11",
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/provider-upload-cloudinary": "^4.1.11",
+    "@strapi/strapi": "4.1.11",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "09c0a85b-4196-4088-aa3d-dd268d9d6373"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

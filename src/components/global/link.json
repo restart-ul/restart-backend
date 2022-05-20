@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_global_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "isButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "auth": {
+      "type": "boolean",
+      "default": false
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "childItems": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_global_cookie_categories",
+  "info": {
+    "displayName": "cookieCategory",
+    "icon": "tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabLabel": {
+      "type": "string"
+    },
+    "activeLabel": {
+      "type": "string"
+    },
+    "alwaysActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "withSwitch": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

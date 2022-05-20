@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_navigation_links",
+  "info": {
+    "displayName": "Navigation links",
+    "icon": "mercury"
+  },
+  "options": {},
+  "attributes": {
+    "subMenu": {
+      "displayName": "Nav submenu",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.nav-submenu"
+    }
+  }
+}

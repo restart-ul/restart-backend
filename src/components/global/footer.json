@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "globe-americas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "copyright": {
+      "displayName": "Copyright",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.copyright"
+    },
+    "footerInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.footer-info"
+    },
+    "footerUsefullLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-links"
+    },
+    "footerInfoLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.footer-links"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_nav_submenus",
+  "info": {
+    "displayName": "Nav submenu",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "itemId": {
+      "type": "string"
+    },
+    "parentId": {
+      "type": "string"
+    }
+  }
+}

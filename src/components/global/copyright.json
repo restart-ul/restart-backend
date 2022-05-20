@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_copyrights",
+  "info": {
+    "displayName": "Copyright",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    }
+  }
+}

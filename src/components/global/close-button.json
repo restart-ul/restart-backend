@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_close_buttons",
+  "info": {
+    "displayName": "closeButton",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "a11y": {
+      "type": "string"
+    }
+  }
+}
