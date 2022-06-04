@@ -8,7 +8,7 @@ module.exports = ({env}) => {
     },
   };
 
-  console.log(config, env);
+  console.log(config, env());
 
   return config;
 };
