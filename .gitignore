@@ -1,6 +1,4 @@
-############################
-# OS X
-############################
+
 
 .DS_Store
 .AppleDouble
@@ -11,59 +9,7 @@ Icon
 ._*
 
 
-############################
-# Linux
-############################
 
-*~
-
-
-############################
-# Windows
-############################
-
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
-
-
-############################
-# Packages
-############################
-
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
-
-
-############################
-# Logs and databases
-############################
 
 .tmp
 *.log
@@ -71,21 +17,6 @@ $RECYCLE.BIN/
 *.sqlite
 *.sqlite3
 
-
-############################
-# Misc.
-############################
-
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
-
-############################
-# Node.js
-############################
 
 lib-cov
 lcov.info
@@ -106,7 +37,7 @@ coverage
 # Strapi
 ############################
 
-.env
+.env*
 license.txt
 exports
 *.cache
