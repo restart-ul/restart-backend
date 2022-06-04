@@ -1,5 +1,5 @@
 module.exports = ({env}) => {
-  console.log({env});
+  console.log({env: process.env});
 
   return {
     host: env('HOST', '0.0.0.0'),
