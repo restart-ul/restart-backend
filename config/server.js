@@ -1,5 +1,5 @@
 module.exports = ({env}) => {
-  console.log({env: env('STRAPI_ENDPOINT')});
+  console.log({env});
 
   return {
     host: env('HOST', '0.0.0.0'),
