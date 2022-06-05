@@ -8,7 +8,5 @@ module.exports = ({env}) => {
     },
   };
 
-  console.log(config, process.env);
-
   return config;
 };
