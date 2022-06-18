@@ -35,5 +35,4 @@ const db = {
 };
 
 const connection = process.env.DATABASE ? db[process.env.DATABASE] : db.sqlite;
-
 module.exports = { connection };
