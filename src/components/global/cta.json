@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "isButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

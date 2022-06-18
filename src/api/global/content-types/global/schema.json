@@ -22,6 +22,12 @@
       "type": "component",
       "repeatable": false,
       "component": "global.cookie-banner"
+    },
+    "CTA": {
+      "displayName": "CTA",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
     }
   }
 }
