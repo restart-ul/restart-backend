@@ -26,6 +26,10 @@
     },
     "childItems": {
       "type": "json"
+    },
+    "auth": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

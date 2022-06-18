@@ -12,6 +12,23 @@
       "type": "component",
       "repeatable": false,
       "component": "global.logo"
+    },
+    "useFullLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "linksHeading": {
+      "type": "string"
+    },
+    "postsHeading": {
+      "type": "string"
+    },
+    "recenPost": {
+      "displayName": "Recent Posts",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.recent-posts"
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_global_recent_posts",
+  "info": {
+    "displayName": "Recent Posts",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "altText": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    }
+  }
+}
