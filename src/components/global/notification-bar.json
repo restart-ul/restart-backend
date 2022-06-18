@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "cta": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.link"
-    },
     "description": {
       "type": "richtext"
     }

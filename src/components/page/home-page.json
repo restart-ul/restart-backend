@@ -5,12 +5,5 @@
     "icon": "pager"
   },
   "options": {},
-  "attributes": {
-    "carousel": {
-      "displayName": "hero",
-      "type": "component",
-      "repeatable": true,
-      "component": "page.hero"
-    }
-  }
+  "attributes": {}
 }

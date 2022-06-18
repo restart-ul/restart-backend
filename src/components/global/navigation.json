@@ -7,43 +7,30 @@
   },
   "options": {},
   "attributes": {
-    "logo": {
-      "displayName": "logo",
+    "skipNavigation": {
       "type": "component",
       "repeatable": false,
-      "component": "global.logo"
-    },
-    "info": {
-      "displayName": "Info",
-      "type": "component",
-      "repeatable": true,
-      "component": "global.info"
-    },
-    "socialLinks": {
-      "displayName": "Social links",
-      "type": "component",
-      "repeatable": true,
-      "component": "global.social-links"
-    },
-    "links": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.link"
+      "component": "global.cta"
     },
     "authButtons": {
       "type": "component",
       "repeatable": true,
-      "component": "global.link"
+      "component": "global.cta"
     },
-    "skipNavigation": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.link"
-    },
-    "navSubmenu": {
+    "navigationLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "global.nav-submenu"
+      "component": "global.cta"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "topBarInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
     }
   }
 }

@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "cookie_banners",
+  "info": {
+    "singularName": "cookie-banner",
+    "pluralName": "cookie-banners",
+    "displayName": "Cookie banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "detail": {
+      "type": "richtext",
+      "default": "We use cookies to make HubSpot’s website a better place. Some cookies are necessary to use our services, as they make sure our site and services function properly. Other cookies are optional, and are used to provide you with a more personalized experience including relevant advertising for you and web analytics for us. You can allow the use of all cookies, just necessary cookies or you can choose more options in Cookie Settings.  We will not set optional cookies unless you consent to them, and if you decline to make a selection we will use necessary cookies only. You can change your preferences and withdraw your consent at any time by visiting the Cookie Settings, linked in the footer of this website. To learn more about the different cookies we’re using, check out our Cookie Policy.",
+      "required": true
+    },
+    "closeCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "cookieSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "modalHeading": {
+      "type": "string"
+    },
+    "modalCtas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "categories": {
+      "displayName": "categories",
+      "type": "component",
+      "repeatable": true,
+      "component": "cookie-banner.categories"
+    }
+  }
+}

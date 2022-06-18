@@ -11,23 +11,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "navigation": {
-      "displayName": "Navigation",
-      "type": "component",
-      "repeatable": false,
-      "component": "global.navigation"
-    },
-    "cookieBanner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.cookie-banner"
-    },
-    "CTA": {
-      "displayName": "CTA",
-      "type": "component",
-      "repeatable": false,
-      "component": "global.cta"
-    }
-  }
+  "attributes": {}
 }

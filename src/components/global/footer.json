@@ -1,32 +1,17 @@
 {
   "collectionName": "components_global_footers",
   "info": {
-    "displayName": "Footer",
-    "icon": "globe-americas",
+    "displayName": "footer",
+    "icon": "drafting-compass",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "copyright": {
-      "displayName": "Copyright",
+    "logo": {
+      "displayName": "logo",
       "type": "component",
       "repeatable": false,
-      "component": "global.copyright"
-    },
-    "footerInfo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.footer-info"
-    },
-    "footerUsefullLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.footer-links"
-    },
-    "footerInfoLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.footer-links"
+      "component": "global.logo"
     }
   }
 }

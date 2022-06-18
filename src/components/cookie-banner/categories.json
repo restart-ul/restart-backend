@@ -1,26 +1,29 @@
 {
-  "collectionName": "components_global_cookie_categories",
+  "collectionName": "components_cookie_banner_categories",
   "info": {
-    "displayName": "cookieCategory",
-    "icon": "tag",
+    "displayName": "categories",
+    "icon": "align-left",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "tabLabel": {
+    "heading": {
       "type": "string"
     },
-    "activeLabel": {
+    "description": {
+      "type": "richtext"
+    },
+    "tabLabel": {
       "type": "string"
     },
     "alwaysActive": {
       "type": "boolean",
       "default": false
     },
-    "description": {
-      "type": "richtext"
+    "alwaysActiveText": {
+      "type": "string"
     },
-    "withSwitch": {
+    "hasSwitch": {
       "type": "boolean",
       "default": true
     }

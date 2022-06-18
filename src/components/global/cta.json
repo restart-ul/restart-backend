@@ -2,7 +2,8 @@
   "collectionName": "components_global_ctas",
   "info": {
     "displayName": "CTA",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,9 @@
     },
     "icon": {
       "type": "string"
+    },
+    "childItems": {
+      "type": "json"
     }
   }
 }
