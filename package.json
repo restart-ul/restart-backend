@@ -7,7 +7,6 @@
     "dev": "strapi develop",
     "start": "NODE_ENV=production node server.js",
     "build": "NODE_ENV=production strapi build",
-    "clean": "rimraf node_modules",
     "prebuild": "rimraf build"
   },
   "devDependencies": {},
