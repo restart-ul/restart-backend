@@ -30,6 +30,11 @@
     },
     "copyright": {
       "type": "string"
+    },
+    "subscriptionForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "form.subscription"
     }
   }
 }
