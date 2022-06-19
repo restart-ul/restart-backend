@@ -29,6 +29,14 @@
       "type": "component",
       "repeatable": true,
       "component": "global.recent-posts"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
     }
   }
 }

@@ -11,5 +11,17 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "carousel": {
+      "displayName": "carousel",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.carousel"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    }
+  }
 }
