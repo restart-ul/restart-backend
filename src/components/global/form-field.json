@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_form_fields",
+  "info": {
+    "displayName": "formField",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

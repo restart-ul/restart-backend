@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_form_subscriptions",
+  "info": {
+    "displayName": "subscription",
+    "icon": "pen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "formFields": {
+      "displayName": "formField",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.form-field"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "privacyConsent": {
+      "displayName": "Privacy Consent",
+      "type": "component",
+      "repeatable": false,
+      "component": "form.privacy-consent"
+    },
+    "a11y": {
+      "type": "string"
+    }
+  }
+}

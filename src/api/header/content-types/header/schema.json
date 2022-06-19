@@ -16,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "global.navigation"
+    },
+    "announcement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.notification-bar"
     }
   }
 }

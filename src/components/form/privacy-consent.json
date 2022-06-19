@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_form_privacy_consents",
+  "info": {
+    "displayName": "Privacy Consent",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "detail": {
+      "type": "richtext",
+      "default": "We're committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out our privacy policy."
+    }
+  }
+}

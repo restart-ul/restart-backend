@@ -12,11 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "footer": {
-      "displayName": "footer",
+    "linksHeading": {
+      "type": "string"
+    },
+    "postsHeading": {
+      "type": "string"
+    },
+    "useFulLinks": {
       "type": "component",
-      "repeatable": false,
-      "component": "global.footer"
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "footerInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "copyright": {
+      "type": "string"
     }
   }
 }

@@ -2,12 +2,18 @@
   "collectionName": "components_global_notification_bars",
   "info": {
     "displayName": "Notification bar",
-    "icon": "calendar"
+    "icon": "calendar",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
       "type": "richtext"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
     }
   }
 }
