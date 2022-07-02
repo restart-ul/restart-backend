@@ -22,6 +22,24 @@
       "type": "component",
       "repeatable": true,
       "component": "global.cta"
+    },
+    "aboutSection": {
+      "displayName": "About section",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.about-section"
+    },
+    "supportSection": {
+      "displayName": "support",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.support"
+    },
+    "initiatives": {
+      "displayName": "initiatives",
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.initiatives"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_page_support_options",
+  "info": {
+    "displayName": "supportOption",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "richtext"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    }
+  }
+}

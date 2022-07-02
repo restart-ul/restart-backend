@@ -12,6 +12,9 @@
     },
     "placeholder": {
       "type": "string"
+    },
+    "key": {
+      "type": "string"
     }
   }
 }

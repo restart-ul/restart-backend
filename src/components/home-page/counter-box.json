@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_page_counter_boxes",
+  "info": {
+    "displayName": "counterBox",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    }
+  }
+}

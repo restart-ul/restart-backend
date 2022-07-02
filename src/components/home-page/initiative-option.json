@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_page_initiative_options",
+  "info": {
+    "displayName": "initiativeOption",
+    "icon": "balance-scale",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "redirect": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
