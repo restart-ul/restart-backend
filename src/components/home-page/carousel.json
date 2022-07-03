@@ -2,19 +2,21 @@
   "collectionName": "components_home_page_carousels",
   "info": {
     "displayName": "carousel",
-    "icon": "archive"
+    "icon": "archive",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "ctas": {
       "type": "component",
