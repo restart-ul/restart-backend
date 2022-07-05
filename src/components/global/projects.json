@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_global_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "a11y": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "detail": {
+      "type": "richtext"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

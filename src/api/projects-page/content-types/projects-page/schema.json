@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_pages",
+  "info": {
+    "singularName": "projects-page",
+    "pluralName": "projects-pages",
+    "displayName": "Projects Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projects": {
+      "displayName": "project",
+      "type": "component",
+      "repeatable": true,
+      "component": "projects-page.project"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "ctas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    },
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}

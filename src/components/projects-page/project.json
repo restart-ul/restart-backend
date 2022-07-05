@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_projects_page_projects",
+  "info": {
+    "displayName": "project",
+    "icon": "chess-bishop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "richtext"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "redirect": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

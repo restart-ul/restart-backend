@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_social_links",
+  "info": {
+    "displayName": "social-links",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "a11y": {
+      "type": "string"
+    }
+  }
+}

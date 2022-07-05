@@ -22,11 +22,6 @@
       "repeatable": true,
       "component": "global.cta"
     },
-    "socialLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.cta"
-    },
     "topBarInfo": {
       "type": "component",
       "repeatable": true,

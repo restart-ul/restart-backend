@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "displayName": "About Page",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-page.about-page"
+    },
+    "aboutSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.about-section"
+    },
+    "team": {
+      "displayName": "people",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.people"
+    },
+    "teamHeading": {
+      "type": "string"
+    },
+    "collaboratorsHeading": {
+      "type": "string"
+    },
+    "collaborators": {
+      "displayName": "collaborator",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.collaborator"
+    },
+    "pageTitle": {
+      "type": "string"
+    }
+  }
+}

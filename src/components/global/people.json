@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_global_people",
+  "info": {
+    "displayName": "people",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "displayName": "social-links",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.social-links"
+    },
+    "email": {
+      "type": "email"
+    },
+    "role": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
