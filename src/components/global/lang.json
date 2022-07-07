@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_global_langs",
+  "info": {
+    "displayName": "lang",
+    "icon": "language",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

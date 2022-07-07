@@ -12,22 +12,21 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "projects": {
-      "displayName": "project",
-      "type": "component",
-      "repeatable": true,
-      "component": "projects-page.project"
-    },
     "heading": {
       "type": "string"
     },
-    "ctas": {
+    "cta": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "global.cta"
     },
     "pageTitle": {
       "type": "string"
+    },
+    "galley": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.projects"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_global_lang_strings",
+  "info": {
+    "displayName": "langString",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "redirect": {
+      "type": "string"
+    }
+  }
+}

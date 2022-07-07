@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_projects_page_tab_s",
+  "info": {
+    "displayName": "Tab ",
+    "icon": "band-aid"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "redirect": {
+      "type": "string"
+    }
+  }
+}
