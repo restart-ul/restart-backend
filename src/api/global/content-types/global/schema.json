@@ -25,6 +25,11 @@
     },
     "lang": {
       "type": "json"
+    },
+    "privacyConsent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "form.privacy-consent"
     }
   }
 }

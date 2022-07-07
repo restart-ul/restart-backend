@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_contact_page_contact_forms",
+  "info": {
+    "displayName": "contactForm",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "formFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.form-field"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}
