@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_donation_page_info_forms",
+  "info": {
+    "displayName": "infoForm",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "formFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.form-field"
+    }
+  }
+}

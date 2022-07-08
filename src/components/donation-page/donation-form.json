@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_donation_page_donation_forms",
+  "info": {
+    "displayName": "donationForm",
+    "icon": "comment-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "amountList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.item"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.item"
+    }
+  }
+}

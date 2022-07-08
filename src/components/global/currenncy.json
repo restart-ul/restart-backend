@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_currenncies",
+  "info": {
+    "displayName": "currenncy",
+    "icon": "money-bill-alt"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    }
+  }
+}

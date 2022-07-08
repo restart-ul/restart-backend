@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_donation_page_dedicate_sections",
+  "info": {
+    "displayName": "dedicateSection",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dedicateDonation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.item"
+    },
+    "typeHeading": {
+      "type": "string"
+    },
+    "types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.item"
+    },
+    "formFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.form-field"
+    }
+  }
+}

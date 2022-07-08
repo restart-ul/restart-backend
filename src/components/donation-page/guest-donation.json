@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_donation_page_guest_donations",
+  "info": {
+    "displayName": "Donor Type",
+    "icon": "user-alt-slash",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.item"
+    },
+    "guestHeading": {
+      "type": "string"
+    },
+    "formField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.form-field"
+    },
+    "emailCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "accountOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.cta"
+    }
+  }
+}

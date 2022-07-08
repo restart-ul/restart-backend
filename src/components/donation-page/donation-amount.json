@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_donation_page_donation_amounts",
+  "info": {
+    "displayName": "donationAmount",
+    "icon": "comments-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "string"
+    },
+    "amountId": {
+      "type": "string"
+    },
+    "a11y": {
+      "type": "string"
+    }
+  }
+}

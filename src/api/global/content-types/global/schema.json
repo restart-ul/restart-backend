@@ -30,6 +30,12 @@
       "type": "component",
       "repeatable": true,
       "component": "form.privacy-consent"
+    },
+    "currencies": {
+      "displayName": "currenncy",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.currenncy"
     }
   }
 }

@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "donate_pages",
+  "info": {
+    "singularName": "donate-page",
+    "pluralName": "donate-pages",
+    "displayName": "Donate Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "amountSection": {
+      "displayName": "donationForm",
+      "type": "component",
+      "repeatable": false,
+      "component": "donation-page.donation-form"
+    },
+    "donationType": {
+      "displayName": "donationType",
+      "type": "component",
+      "repeatable": false,
+      "component": "donation-page.donation-type"
+    },
+    "donateCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.item"
+    },
+    "dedicationForm": {
+      "displayName": "dedicateSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "donation-page.dedicate-section"
+    },
+    "infoForm": {
+      "displayName": "infoForm",
+      "type": "component",
+      "repeatable": false,
+      "component": "donation-page.info-form"
+    },
+    "donorType": {
+      "displayName": "guestDonation",
+      "type": "component",
+      "repeatable": false,
+      "component": "donation-page.guest-donation"
+    },
+    "orString": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

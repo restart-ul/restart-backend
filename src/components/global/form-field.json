@@ -15,6 +15,14 @@
     },
     "key": {
       "type": "string"
+    },
+    "message": {
+      "type": "string",
+      "default": "Required field"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

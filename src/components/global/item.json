@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_items",
+  "info": {
+    "displayName": "item",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

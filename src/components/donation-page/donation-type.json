@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_donation_page_donation_types",
+  "info": {
+    "displayName": "donationType",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "declaration": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.item"
+    },
+    "donationOf": {
+      "type": "string"
+    },
+    "otherAmount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.item"
+    },
+    "formField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.form-field"
+    }
+  }
+}
