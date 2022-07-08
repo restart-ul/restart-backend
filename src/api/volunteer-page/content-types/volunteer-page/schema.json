@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "volunteer_pages",
+  "info": {
+    "singularName": "volunteer-page",
+    "pluralName": "volunteer-pages",
+    "displayName": "Volunteer Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "registrationForm": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "volunteer-page.form"
+    }
+  }
+}

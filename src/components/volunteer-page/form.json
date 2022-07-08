@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_volunteer_page_forms",
+  "info": {
+    "displayName": "form",
+    "icon": "balance-scale-left"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.cta"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "formFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.form-field"
+    }
+  }
+}
